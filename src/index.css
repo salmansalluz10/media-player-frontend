@@ -1,0 +1,144 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui;
+}
+
+/* Footer styling */
+footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+}
+@media (max-width: 700px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-section {
+    flex-direction: column;
+  }
+}
+
+/* Contact us section */
+.contact-us-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Icon section */
+.icon-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.media-font {
+  font-size: 14px;
+  padding: 10px 16px;
+}
+
+/* Home */
+.home-part,
+.home-video-category-part {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Upload new video */
+.upload-new-video {
+  display: flex;
+}
+.upload-new-video button {
+  background-color: transparent;
+  color: aliceblue;
+  border: none;
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+/* Input box */
+.input-box {
+  padding: 4px 12px;
+  display: block;
+  width: 90%;
+  margin: 10px;
+}
+
+.input-section {
+  border: 2px solid white;
+  padding: 12px 0;
+  padding-left: 16px;
+}
+
+/* All videos */
+.allvideo {
+  max-width: 1050px;
+  margin: auto;
+}
+
+/* Video bar main */
+.video-bar-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+/* Video card */
+.video-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Category */
+.category {
+  padding: 10px;
+}
+
+.songs-category-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-button {
+  padding: 5px 10px;
+  margin-left: 40px;
+}
+
+/* Video card in category */
+.category-video-card {
+  width: 160px;  /* Adjust as needed */
+  height: auto;
+  cursor: pointer;
+}
+
+/* Watch history */
+.watch-back-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 20px 10px;
+}
+
+.table-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  margin: 40px 10px;
+}
+table thead tr td {
+  font-weight: 800;
+}
+table td {
+  border: 2px solid white;
+  padding: 15px 20px;
+}
